@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Blog</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        article {
+            margin-bottom: 20px;
+            padding: 15px;
+            border: 1px solid #ddd;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="posts">
+            <article>
+                <h2>First Blog Post</h2>
+                <p>Published on: <span class="date">2024-09-26</span></p>
+                <p>This is the content of the first blog post. Welcome to my blog!</p>
+            </article>
+
+            <article>
+                <h2>Second Blog Post</h2>
+                <p>Published on: <span class="date">2024-09-25</span></p>
+                <p>This is the content of the second blog post. Stay tuned for more updates!</p>
+            </article>
+            <article>
+                <h2>jitendra chacha ji</h2>
+                <p>Published on: <span class="date">2024-09-24</span></p>
+                <p>This is the content of the third wich dedicate to you blog post. Stay tuned for more updates!</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <h2>About Me</h2>
+            <p>This section is about me.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email me at: <a href="mailto:your.email@example.com">apandey71357@gmal.com</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 My Blog</p>
+    </footer>
+
+    <script>
+        // JavaScript code
+        document.addEventListener("DOMContentLoaded", function() {
+            console.log("Welcome to My Blog!");
+        });
+    </script>
+</body>
+</html>
